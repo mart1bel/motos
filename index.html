@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passion Moto</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #111, #222);
+            color: white;
+            text-align: center;
+        }
+
+        header{
+            padding: 40px;
+            background: url("moto-banner.jpg") center/cover;
+        }
+
+        h1{
+            font-size: 60px;
+            margin: 0;
+            color: orange;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        h2{
+            margin-top: 20px;
+            color: #ffcc00;
+        }
+
+        p{
+            width: 80%;
+            margin: auto;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px;
+        }
+
+        .gallery img{
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px black;
+            transition: 0.3s;
+        }
+
+        .gallery img:hover{
+            transform: scale(1.05);
+        }
+
+        a{
+            display: inline-block;
+            margin: 30px;
+            padding: 15px 25px;
+            background: orange;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover{
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🏍️ Univers Moto 🏍️</h1>
+    </header>
+
+    <h2>Les plus belles motos sportives</h2>
+
+    <p>
+        Les motos sportives sont synonymes de vitesse, de puissance et d’adrénaline.
+        Que ce soit sur route ou sur circuit, elles offrent des sensations incroyables
+        grâce à leurs moteurs performants et leur design agressif.
+    </p>
+
+    <div class="gallery">
+        <img src="moto1.jpg" alt="Moto sportive rouge">
+        <img src="moto2.jpg" alt="Moto noire">
+        <img src="moto3.jpg" alt="Moto sur route">
+    </div>
+
+    <a href="https://www.youtube.com/results?search_query=moto+sportive">
+        Voir des vidéos de motos
+    </a>
+
+</body>
+</html>

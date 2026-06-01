@@ -1,0 +1,77 @@
+xbody{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #111, #222);
+    color: white;
+    text-align: center;
+}
+
+/* Bannière du haut */
+header{
+    padding: 60px;
+    background: url("moto-banner.jpg") center/cover no-repeat;
+}
+
+/* Titre principal */
+h1{
+    font-size: 60px;
+    color: orange;
+    text-shadow: 2px 2px 10px black;
+    margin: 0;
+}
+
+/* Sous-titre */
+h2{
+    margin-top: 30px;
+    color: #ffcc00;
+    font-size: 35px;
+}
+
+/* Texte */
+p{
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Galerie d’images */
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+/* Images */
+.gallery img{
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    transition: 0.3s;
+}
+
+/* Effet au survol */
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+/* Bouton */
+a{
+    display: inline-block;
+    margin: 30px;
+    padding: 15px 25px;
+    background: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Effet bouton */
+a:hover{
+    background: white;
+    color: black;
+}
