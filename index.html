@@ -15,8 +15,9 @@
         }
 
         header{
-            padding: 40px;
-            background: url("moto-banner.jpg") center/cover;
+            padding: 60px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url("https://blog.la-becanerie.com/wp-content/uploads/2023/05/Les-meilleures-sportives-sur-routes.jpeg") center/cover;
         }
 
         h1{
@@ -27,7 +28,7 @@
         }
 
         h2{
-            margin-top: 20px;
+            margin-top: 30px;
             color: #ffcc00;
         }
 
@@ -46,14 +47,16 @@
             margin: 40px;
         }
 
-        .gallery img{ https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQAKP7aJ1AS-f6ky4CUHp7sJ6xzlt9oobrg&s
+        .gallery img{
             width: 300px;
+            height: 200px;
+            object-fit: cover;
             border-radius: 15px;
             box-shadow: 0 0 15px black;
             transition: 0.3s;
         }
 
-        .gallery img:hover{ https://blog.la-becanerie.com/wp-content/uploads/2023/05/Les-meilleures-sportives-sur-routes.jpeg
+        .gallery img:hover{
             transform: scale(1.05);
         }
 
@@ -72,6 +75,13 @@
         a:hover{
             background: white;
         }
+
+        footer{
+            margin-top: 40px;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+        }
     </style>
 </head>
 
@@ -86,18 +96,28 @@
     <p>
         Les motos sportives sont synonymes de vitesse, de puissance et d’adrénaline.
         Que ce soit sur route ou sur circuit, elles offrent des sensations incroyables
-        grâce à leurs moteurs performants et leur design agressif.
+        grâce à leurs moteurs performants et leur design agressif. Découvrez quelques
+        modèles emblématiques qui font rêver les passionnés du monde entier.
     </p>
 
     <div class="gallery">
-        <img src="moto1.jpg" alt="Moto sportive rouge">
-        <img src="moto2.jpg" alt="Moto noire">
-        <img src="moto3.jpg" alt="Moto sur route">
+        <img src="https://blog.la-becanerie.com/wp-content/uploads/2023/05/Les-meilleures-sportives-sur-routes.jpeg"
+             alt="Moto sportive">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFQ3xXQxVt5s8Y7BL84ejyavZsZN7oGUGM_w&s"
+             alt="Moto noire">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQggrFEdNSciO7GUFA8rZReB4I3hRt3tKo2Iw&s"
+             alt="Moto sur route">
     </div>
 
-    <a href="https://www.youtube.com/results?search_query=moto+sportive">
+    <a href="https://www.youtube.com/results?search_query=moto+sportive" target="_blank">
         Voir des vidéos de motos
     </a>
+
+    <footer>
+        © 2026 - Univers Moto
+    </footer>
 
 </body>
 </html>
